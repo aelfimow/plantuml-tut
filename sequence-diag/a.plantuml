@@ -1,4 +1,12 @@
 @startuml
+
+header
+Communication
+endheader
+
 Alice -> Bob: hallo
 Bob -> Alice: hallo
+
+footer Example of a simple communication
+
 @enduml
