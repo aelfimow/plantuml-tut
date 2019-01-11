@@ -25,6 +25,9 @@ SomeActor -> SomeControl: start
 SomeActor -> SomeEntity: create
 SomeActor -> SomeDatabase: save everything
 
+Alice -> Alice: Talking to myself
+Bob -> Bob: Talking to myself, too
+
 footer Example of a simple communication
 
 @enduml
