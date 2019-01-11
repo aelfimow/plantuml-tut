@@ -4,8 +4,26 @@ header
 Communication
 endheader
 
+participant Alice
+participant Bob
+
+actor    SomeActor
+
+boundary SomeBoundary
+control  SomeControl
+entity   SomeEntity
+database SomeDatabase
+
 Alice -> Bob: hallo
 Bob -> Alice: hallo
+
+Alice -> SomeActor: do it
+SomeActor -> Alice: mam yes mam
+
+SomeActor -> SomeBoundary: bound
+SomeActor -> SomeControl: start
+SomeActor -> SomeEntity: create
+SomeActor -> SomeDatabase: save everything
 
 footer Example of a simple communication
 
