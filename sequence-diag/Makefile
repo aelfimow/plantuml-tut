@@ -8,3 +8,6 @@ a.png: a.plantuml
 
 b.png: b.plantuml
 	java -jar ${PUMLJAR} b.plantuml
+
+c.png: c.plantuml
+	java -jar ${PUMLJAR} c.plantuml
