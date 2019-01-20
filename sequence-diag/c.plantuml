@@ -1,0 +1,23 @@
+@startuml
+
+header
+Pfeile und Farben
+endheader
+
+actor A
+actor B
+
+A -[#red]>x B
+A -[#blue]> B
+A -[#112233]>> B
+A -[#yellow]\ B
+A \\[#green]- B
+A //-[#0080FF]- B
+A -[#red]>o B
+A o\\-[#551188]- B
+A <[#yellow]-> B
+A <[#green]->o B
+
+footer Alle möglichen Pfeile und deren Farben
+
+@enduml
