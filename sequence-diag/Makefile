@@ -11,3 +11,6 @@ b.png: b.plantuml
 
 c.png: c.plantuml
 	java -jar ${PUMLJAR} c.plantuml
+
+d.png: d.plantuml
+	java -jar ${PUMLJAR} d.plantuml
