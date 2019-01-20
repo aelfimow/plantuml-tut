@@ -1,0 +1,30 @@
+@startuml
+
+header
+Gruppierung von Nachrichten
+endheader
+
+actor A
+actor B
+actor C
+
+group Begrüßung
+A -> B: hallo
+B -> C: hallo
+end
+
+critical Beleidigung
+A -> C: du bist ein A*
+end
+
+alt Begrüßung Option 1
+A -> B: Hi!
+B -> C: Hi!
+else Begrüßung Option 2
+A -> B: Guten!
+B -> C: Guten!
+end
+
+footer Alle möglichen Pfeile und deren Farben
+
+@enduml
