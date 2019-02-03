@@ -1,0 +1,22 @@
+@startuml
+
+participant A
+participant B
+
+note left of A #aqua
+	Some note left of A
+end note
+
+note right of A #aqua
+	Some note right of A
+end note
+
+note over A #aqua
+	Some note over A
+end note
+
+note over A, B #aqua
+	Some note over A and B
+end note
+
+@enduml
