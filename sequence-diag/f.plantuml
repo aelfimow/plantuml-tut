@@ -1,0 +1,23 @@
+@startuml
+
+participant A
+participant B
+participant C
+
+A -> B: hallo
+activate B #AABBCC
+
+B -> B: be happy
+activate B #CCDDFF
+
+B -> C: hallo
+activate C
+
+C --> B
+deactivate C
+deactivate B
+
+B -> A: happy
+deactivate B
+
+@enduml
