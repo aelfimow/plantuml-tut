@@ -19,4 +19,12 @@ note over A, B #aqua
 	Some note over A and B
 end note
 
+hnote over A, B #aqua
+	Some hnote over A and B
+end hnote
+
+rnote over A, B #aqua
+	Some rnote over A and B
+end rnote
+
 @enduml
