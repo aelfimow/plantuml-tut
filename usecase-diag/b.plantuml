@@ -1,0 +1,17 @@
+@startuml
+
+header
+Einige Akteure
+endheader
+
+actor Sohn
+actor Tochter
+actor Opa
+actor Oma
+
+Sohn <|-- Opa
+Tochter <|-- Oma
+
+footer Beispiele der Akteure
+
+@enduml
