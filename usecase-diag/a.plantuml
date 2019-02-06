@@ -1,0 +1,14 @@
+@startuml
+
+header
+Einige Anwendungsfälle
+endheader
+
+(Anwendungsfall Eins)
+(Anwendungsfall Zwei)
+(Anwendungsfall Drei)
+(Anwendungsfall Vier)
+
+footer Beispiele der Anwendungsfälle
+
+@enduml
