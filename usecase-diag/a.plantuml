@@ -9,6 +9,12 @@ endheader
 (Anwendungsfall Drei)
 (Anwendungsfall Vier)
 
+:Akteur Eins:
+:Akteur Zwei:
+:Akteur Drei:
+:Akteur Vier:
+actor Akteur
+
 footer Beispiele der Anwendungsfälle
 
 @enduml
