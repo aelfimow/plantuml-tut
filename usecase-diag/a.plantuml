@@ -4,14 +4,11 @@ header
 Einige Anwendungsfälle
 endheader
 
-(Anwendungsfall Eins)
-(Anwendungsfall Zwei)
-(Anwendungsfall Drei)
 (Anwendungsfall Vier)
 
-:Akteur Eins:
-:Akteur Zwei:
-:Akteur Drei:
+:Akteur Eins: -> (Anwendungsfall Eins)
+:Akteur Zwei: --> (Anwendungsfall Zwei)
+:Akteur Drei: ---> (Anwendungsfall Drei)
 :Akteur Vier:
 actor Akteur
 
