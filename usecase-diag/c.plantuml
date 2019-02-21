@@ -4,4 +4,8 @@ Benutzer -> (Benutze dies und das)
 Benutzer --> (Faulenzen) : Wenn müde, dann...
 :Zweiter Benutzer: ---> (Faulenzen) : Wenn müde\noder auch nicht\n
 
+note right of (Faulenzen)
+    Spezialfall, der nie eintreten sollte.
+end note
+
 @enduml
