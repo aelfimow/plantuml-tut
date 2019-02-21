@@ -1,0 +1,7 @@
+@startuml
+
+Benutzer -> (Benutze dies und das)
+Benutzer --> (Faulenzen) : Wenn müde, dann...
+:Zweiter Benutzer: ---> (Faulenzen) : Wenn müde\noder auch nicht\n
+
+@enduml
