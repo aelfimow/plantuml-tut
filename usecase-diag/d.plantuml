@@ -1,0 +1,18 @@
+@startuml
+
+Benutzer1 << Mensch >>
+Benutzer2 << Mensch >>
+Benutzer3 << Mensch >>
+Benutzer4 << Mensch >>
+
+Robot1 << Robot >>
+Robot2 << Robot >>
+Robot3 << Robot >>
+Robot4 << Robot >>
+
+Benutzer1 -> Robot1
+Benutzer2 -> Robot2
+Benutzer3 -> Robot3
+Benutzer4 -> Robot4
+
+@enduml
